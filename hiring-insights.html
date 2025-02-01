@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring Insights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Hiring Insights</h2>
+        <div class="salary-estimates">
+            <h3>Salary Estimates</h3>
+            <p>Estimated salary ranges for popular job roles in tech:</p>
+            <ul>
+                <li>Software Engineer: $80,000 - $150,000</li>
+                <li>Data Scientist: $90,000 - $160,000</li>
+                <li>Product Manager: $100,000 - $180,000</li>
+            </ul>
+        </div>
+        <div class="hiring-trends">
+            <h3>Hiring Trends</h3>
+            <canvas id="hiring-trends-chart"></canvas>
+        </div>
+        <div class="interview-feedback">
+            <h3>Submit Interview Feedback</h3>
+            <form id="feedback-form">
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company" required>
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" rows="4" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us at: info@interviewprephub.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

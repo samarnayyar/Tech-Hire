@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Community Discussions</h2>
+        <div class="discussion-form">
+            <h3>Start a Discussion</h3>
+            <form id="discussion-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="discussion">Your Discussion:</label>
+                <textarea id="discussion" name="discussion" rows="4" required></textarea>
+                <button type="submit">Post Discussion</button>
+            </form>
+        </div>
+        <div id="discussions-container">
+            <h3>Recent Discussions</h3>
+            <ul id="discussions-list"></ul>
+        </div>
+        <div class="live-chat">
+            <h3>Live Chat</h3>
+            <textarea id="chat-input" placeholder="Ask the community..." rows="3"></textarea>
+            <button id="chat-submit">Send</button>
+            <div id="chat-output"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us at: info@interviewprephub.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

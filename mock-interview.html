@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Mock Interview - Live Session</h2>
+        <div class="interview-session">
+            <div class="timer">
+                <p>Time Remaining: <span id="timer">2:00</span></p>
+            </div>
+            <div class="question">
+                <p id="question">What is your greatest strength?</p>
+            </div>
+            <textarea id="answer" placeholder="Type your answer here..." rows="5"></textarea>
+            <button id="submit-answer">Submit Answer</button>
+            <div id="feedback"></div>
+            <div class="progress">
+                <p>Progress: <span id="progress">0%</span></p>
+                <progress id="interview-progress" value="0" max="5"></progress>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us at: info@interviewprephub.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
